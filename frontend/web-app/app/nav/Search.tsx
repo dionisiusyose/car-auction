@@ -21,16 +21,7 @@ export default function Search() {
         }}
         type="text"
         placeholder="Search for cars by make, model or color"
-        className="
-            grow
-            pl-5
-            bg-transparent
-            outline-none
-            focus:ring-0
-            text-sm
-            text-gray-600
-            border-0
-            "
+        className="input-custom"
       />
 
       <button onClick={handleSearch}>

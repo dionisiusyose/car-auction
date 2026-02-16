@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "src\Gatew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "src\BiddingService\BiddingService.csproj", "{B153C831-4F74-475F-9D99-78A7F3D96AE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\NotificationService\NotificationService.csproj", "{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,18 @@ Global
 		{B153C831-4F74-475F-9D99-78A7F3D96AE5}.Release|x64.Build.0 = Release|Any CPU
 		{B153C831-4F74-475F-9D99-78A7F3D96AE5}.Release|x86.ActiveCfg = Release|Any CPU
 		{B153C831-4F74-475F-9D99-78A7F3D96AE5}.Release|x86.Build.0 = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|x64.Build.0 = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|x64.Build.0 = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,5 +124,6 @@ Global
 		{B0BB43EB-F5F7-4B8B-89E2-5425E04254E9} = {902AED39-21B8-4DB7-9155-3BA89D6CDD4B}
 		{93B6FDE4-84AC-452B-932C-07C06959EE66} = {902AED39-21B8-4DB7-9155-3BA89D6CDD4B}
 		{B153C831-4F74-475F-9D99-78A7F3D96AE5} = {902AED39-21B8-4DB7-9155-3BA89D6CDD4B}
+		{BB302F7F-9D4F-4163-9D4F-1ECB590A0207} = {902AED39-21B8-4DB7-9155-3BA89D6CDD4B}
 	EndGlobalSection
 EndGlobal

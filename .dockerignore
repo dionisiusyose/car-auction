@@ -1,0 +1,12 @@
+**/bin
+**/obj
+**/node_modules
+.git
+.gitignore
+.vs
+.vscode
+Dockerfile
+docker-compose.yml
+
+frontend/web-app/node_modules
+frontend/web-app/.next

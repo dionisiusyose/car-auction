@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "pixabay.com" },
     ],
   },
+  output: "standalone",
 };
 
 export default nextConfig;

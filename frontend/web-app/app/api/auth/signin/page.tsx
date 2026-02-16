@@ -5,14 +5,14 @@ export default async function SignIn({
 }: {
   searchParams: Promise<{ callbackUrl: string }>;
 }) {
-  const params = await searchParams;
+  const { callbackUrl } = await searchParams;
 
   return (
     <EmptyFilter
       title="You need to be logged in to do that"
       subtitle="Please click below to login"
       showLogin
-      callbackUrl={params?.callbackUrl}
+      callbackUrl={callbackUrl}
     />
   );
 }
